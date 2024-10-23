@@ -9,35 +9,56 @@
 </head>
 <body>
 
-    <header>
+    <div class="p-3 mb-2 bg-body-secondary">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INFORMACIÓN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">||</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">VOLVER</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">||</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gastos.html">GASTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true"></a>
+          </li>
+        </ul>
+    </div>
 
-        <a href="./gastos.html">ver gastos</a>
-
-    </header>
     <main>
         <section class="container">
             <div class="row my-5">
-                <div class="col-12 col-md-7">
-                    <h3>Registra tu gasto:</h3>
+                <div class="col-12 col-md-16">
                     <form class="p-5 border rounded">
+
                         <div class="input-group mb-3">
                             <span class="input-group-text">
                                 <i class="bi bi-chat-left-dots"></i>
                             </span>
                             <input type="text" class="form-control" placeholder="Descripcion" id="descripcion">
                         </div>
+
                         <div class="input-group mb-3">
                             <span class="input-group-text">
                                 <i class="bi bi-currency-dollar"></i>
                             </span>
                             <input type="number" class="form-control" placeholder="Monto $" id="monto">
                         </div>
+
                         <div class="input-group mb-3">
                             <span class="input-group-text">
                                 <i class="bi bi-calendar-week"></i>
                             </span>
                             <input type="date" class="form-control" placeholder="Fecha" id="fecha">
                         </div>
+
                         <div class="input-group mb-3">
                             <span class="input-group-text">
                                 <i class="bi bi-bookmarks-fill"></i>
@@ -47,10 +68,19 @@
                                 <option value="comida">Alimentacion</option>
                                 <option value="transporte">Transporte</option>
                                 <option value="entretenimiento">Entretenemiento</option>
-                              </select>
+                                <option value="ahorro">ahorro</option>
+                            </select>
                         </div>
+
                         <button type="submit" class="btn btn-outline-primary" id="botonRegistro">Registrar</button>
+                        
+                        
+
                     </form>
+
+                    <div class="b_container">
+                        <h3>"¡Ahorra hoy para un mejor mañana!"</h3>
+                    </div>
                 </div>
             </div>
         </section>

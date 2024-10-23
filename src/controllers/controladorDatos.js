@@ -29,11 +29,13 @@ gastos.forEach(function(gasto){
     imagen.classList.add("img-fluid")
     
     if(gasto.categoria=="transporte"){
-        imagen.src="../../assets/img/transporte.png"
+        imagen.src="../../assets/img/transporte-publico.png"
     }else if(gasto.categoria=="comida"){
-        imagen.src="../../assets/img/food-restaurant.png"
+        imagen.src="../../assets/img/plato.png"
     }else if(gasto.categoria=="entretenimiento"){
-        imagen.src="../../assets/img/mascaradas.png"
+        imagen.src="../../assets/img/entretenimiento.png"
+    }else if(gasto.categoria=="ahorro"){
+        imagen.src="../../assets/img/ahorro.png"
     }
     
     //3. Creando las jerarquias del modelo traversing
@@ -43,6 +45,5 @@ gastos.forEach(function(gasto){
     tarjeta.appendChild(imagen)
     columna.appendChild(tarjeta)
     fila.appendChild(columna)
-
 
 })

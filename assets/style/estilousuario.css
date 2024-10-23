@@ -1,0 +1,20 @@
+nav{ 
+    position: absolute;
+    background-color: black;
+}
+form{ 
+    position: relative;
+    justify-content: center;
+    top: px;
+    color: #131212;
+    width: 80%;
+    left: 100px;
+}
+.img-fluid{
+    position: relative;
+    left: 30%;
+
+}
+.row{
+    position: absolute;
+}
